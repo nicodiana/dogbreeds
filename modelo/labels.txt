@@ -1,0 +1,22 @@
+0 Beagle
+1 Bearded Collie
+2 Bermaise
+3 Border Collie
+4 Boston Terrier
+5 Boxer
+6 Bull Terrier
+7 Bulldog
+8 Chihuahua
+9 Chow
+10 Dalmation
+11 Doberman
+12 German Sheperd
+13 Golden Retriever
+14 Maltese
+15 Newfoundland
+16 Pekinese
+17 Pit Bull
+18 Poodle
+19 Pug
+20 Rottweiler
+21 Saint Bernard
