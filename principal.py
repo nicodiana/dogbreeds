@@ -69,7 +69,7 @@ def classify_dog(img):
 
 st.title("DogBreeds Detector")
 
-st.subheader("""Elegi una foto de tu perro y descubrí mucho mas...""")
+st.subheader("""Adjunta una foto de tu perro y descubrí mucho mas...""")
 st.subheader("""Te vas a enterar de cosas que nunca supiste!""")
 input_img = st.file_uploader("Elegir imagen", type=['jpg', 'png', 'jpeg'])
 
