@@ -67,7 +67,27 @@ def classify_dog(img):
 
 #st.set_page_config(layout='wide')
 
-st.title("DogBreeds Detector")
+color_beige = "#F5F5DC"
+
+# Agrega personalización del título centrado con color de fondo
+st.markdown(
+    f"""
+    <style>
+        .reportview-container {{
+            background-color: {color_beige};
+        }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Agregar personalización del título
+st.markdown(
+    f"""
+    <h1 style='font-family: Lato, sans-serif; color: black; text align: center;'>DogBreeds Detector</h1>
+    """,
+    unsafe_allow_html=True
+)
 
 st.subheader("""Adjunta una foto de tu perro y descubrí mucho mas...""")
 st.subheader("""Te vas a enterar de cosas que nunca supiste!""")
@@ -99,8 +119,9 @@ if input_img is not None:
         with col3:
             st.info("Recomendaciones personalizadas")
             if st.session_state['label'] == 'German Sheperd':
-                st.write('Que coma 3 veces por dia')
-     
+                st.write("Pastor Aleman:")
+                st.write( "Caracteristicas: Leal, Obediente, Inteligente, Vigilante, Protector.")
+
 
 
 
